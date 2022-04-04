@@ -16,3 +16,4 @@ in response to the prompt
 ```
 At first I tried ``` true ```, which had worked for other tests in ```about_strings```, but that didn't work. I searched for what the ```string[x,y]``` method did, and then tried ```It```, but that didn't work. Then I realized I hadn't read the documentation for the method carefully enough. The second number isn't the final position of the substring being pulled, it is the *length*. However, I then tried ```"I"```, and that didn't work either. Not sure what the solution is, will have to come back to it later.
 
+The arrays were not too tough. Arrays-within-arrays are pretty cool. I'm not sure what is going on with the ```test_swapping_with_parallel_assignment"``` koan, even though I got it.
