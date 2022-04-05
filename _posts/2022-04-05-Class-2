@@ -1,0 +1,27 @@
+Authentication:
+
+```
+<form action="/movies" method="post">
+  <input
+    type="hidden"
+    name="authenticity_token"
+    value="<%= form_authenticity_token %>">
+
+  # etc etc
+  >
+</form>
+```
+
+
+Difference between .find, .find_by, .where
+.find_by(:column => value) is same as .where().first
+can return a record a nil if no record matches
+
+.find(value) always looks in id column
+returns a record or raises an ActiveRecord::RecordNotFound error
+In production mode, sends a 404 page
+
+
+```
+
+```
