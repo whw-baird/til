@@ -22,6 +22,5 @@ returns a record or raises an ActiveRecord::RecordNotFound error
 In production mode, sends a 404 page
 
 
-```
-
-```
+Viewhelper methods: will auto-write code. E.g. no anchor tag; use ```<%= Link_to "Comment", "/destination", %>```
+Most important: ```<%= form_with %>```
